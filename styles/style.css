@@ -1,0 +1,228 @@
+#logo {
+    width: auto;
+    height: 100px;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#header {
+    display: flex;
+    background-color: #898878;
+    align-items: center;
+    position: relative;
+
+
+}
+
+#sidenav {
+    width: 160px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    float: left;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #898878;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    color: black;
+
+}
+
+#main {
+    margin-left: 160px;
+    padding: 0px 10px;
+    font-size: 28px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#html-photo {
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #E4E6C3;
+}
+
+#mepic {
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #E4E6C3;
+}
+
+#home,
+#about-me {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121113;
+}
+
+#ICE {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    width: 100%;
+    margin-top: 0;
+}
+
+
+
+#ICE img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+input[type="search"] {
+    flex-grow: 1;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+}
+
+table {
+    width: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td {
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#ICE-info {
+    text-align: center;
+}
+
+#searchscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#ICEPAGE {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid black;
+    padding: 20px;
+    width: 45%;
+}
+
+#ICE img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+#ICE img:hover {
+    transform: scale(1.05);
+}
+#ICEASSIGN {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    column-gap: 50px;
+    margin-bottom: 10px;
+    row-gap: 0;
+}
+
+#ICEPAR {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    margin-top: 0;
+    font-size: 23px;
+}
+
+#table1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+#table1 table {
+    width: 100%;
+    margin: 0;
+}
+.bold {
+    font-weight: bolder;
+}
+
+table caption {
+    caption-side: bottom;
+    font-size: x-small;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+#ICEPAGE img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    border-radius: 10px;
+    object-fit: cover;}
+
+    #othergrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        padding: 30px;
+    
+    }
+    #othergrid img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    #othergrid img:hover {
+        transform: scale(1.05);
+    }
